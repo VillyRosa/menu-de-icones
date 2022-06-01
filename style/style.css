@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    transition: all 1s;
+    background-color: #a891bd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+}
+
+#pointer{
+    transition: all 0.5s;
+    stroke: #c000ffa3;
+    height: 50px;
+}
+
+.container{
+    background-color: #c000ffa3;
+    height: 60px;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 3px #620581;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 1s;
+}
+
+.container svg{
+    color: #3c3838;
+    width: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container svg:hover{
+    transform: scale(1.5);
+}
